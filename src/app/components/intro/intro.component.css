@@ -1,0 +1,36 @@
+.row{
+  padding: 100px;
+  padding-bottom: 50px;
+}
+div{
+  background-color: black;
+  text-align: center;
+}
+#name{
+  font-weight: bold;
+  margin-top: 30%;
+}
+
+@media (min-width: 576px){
+  #img_perfil{
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px black;
+    left: 2%;
+    top: 300px;
+  }
+}
+
+@media (max-width: 575px){
+  #img_perfil{
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px black;
+    left: 35%;
+    top: 300px;
+  }
+}
+.title{
+  color: rgb(151, 19, 151);
+}
+h1{
+  font-size: 30px;
+}

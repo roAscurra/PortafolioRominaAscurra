@@ -1,0 +1,28 @@
+<header>
+  <div class="contenido">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+        <div class="title">
+          <h1>Portafolio</h1>
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-9 text-end">
+        <div class="menu_icon" [class.sections_icon_Class]="sections_icon_Class" (click)="openSections()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="sections" [class.sectionsClass]="sectionsVariable" >
+          <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#SobreMi">Sobre mi</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Tecnologías">Tecnologías</a></li>
+            <li><a href="#HabilidadesBlandas">Habilidades blandas</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

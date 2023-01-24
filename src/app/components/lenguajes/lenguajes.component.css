@@ -1,0 +1,41 @@
+.row{
+  background-color: 119, 136, 153;
+  padding: 20px;
+}
+img{
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+@media (min-width: 576px){
+  img{
+    width: 50%;
+    left: 2%;
+    top: 300px;
+  }
+}
+
+@media (max-width: 575px){
+  img{
+    width: 30%;
+    left: 35%;
+    top: 300px;
+  }
+}
+
+.linea{
+  border-top: 3px solid purple;
+  height: 2px;
+  max-width: 300px;
+  padding: 0;
+  margin: 60px auto 0 auto;
+}
+span{
+  color: rgb(151, 19, 151);
+}

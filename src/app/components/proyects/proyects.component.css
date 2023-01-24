@@ -1,0 +1,98 @@
+
+@media (min-width: 600px){
+  .row{
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  #box{
+    width: 30%;
+    justify-content: center;
+  }
+  h3{
+    padding-top: 60px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 750px){
+  .row{
+    background-color: black;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+  }
+  #box{
+    width: 50%;
+    justify-content: center;
+  }
+  h3{
+    padding-top: 30px;
+    font-size: 15px;
+  }
+}
+div{
+  background-color: black;
+  text-align: center;
+}
+figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-out;
+}
+figure:hover > .capa{
+  opacity: 1;
+  visibility: visible;
+}
+figure{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+}
+.linea{
+  border-top: 3px solid purple;
+  height: 2px;
+  max-width: 300px;
+  padding: 0;
+  margin: 60px auto 0 auto;
+}
+#box{
+  background-color: purple;
+  border-radius: 3%;
+  padding: 20px;
+  margin: 20px;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+}
+span{
+  color: rgb(151, 19, 151);
+}
+a{
+text-decoration: none;
+color: #fff;
+}
+.github{
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+a{
+  width: 50%;
+}
