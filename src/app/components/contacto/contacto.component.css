@@ -24,7 +24,7 @@ h1{
 }
 @media (min-width: 576px){
   #img{
-    width: 40%;
+    width: 30%;
     left: 35%;
     top: 300px;
     padding-bottom: 50px;

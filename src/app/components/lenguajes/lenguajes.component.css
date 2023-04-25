@@ -15,7 +15,7 @@ h1{
 }
 @media (min-width: 576px){
   img{
-    width: 50%;
+    width: 30%;
     left: 2%;
     top: 300px;
   }
@@ -23,7 +23,7 @@ h1{
 
 @media (max-width: 575px){
   img{
-    width: 30%;
+    width: 40%;
     left: 35%;
     top: 300px;
   }
