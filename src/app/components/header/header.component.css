@@ -73,4 +73,7 @@
     right: 0;
     height: 0;
   }
+  header{
+    padding-bottom: 10%;
+  }
 }
