@@ -7,9 +7,9 @@ html,body {
   height: 100%;
   display: block;
   overflow-x: hidden;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #fff;
+  font-family: 'Ysabeau', sans-serif;  color: #fff;
   background-color: black;
+  font-size: large;
 }
 @import "../node_modules/bootstrap/css/bootstrap";
 
