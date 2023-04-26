@@ -1,9 +1,9 @@
 img{
   padding-top: 3%;
   padding-bottom: 3%;
-  justify-content: center;
-  align-items: center;
-  width: 1000%;
+  justify-content: right;
+  align-items: right;
+  max-width: 512px;
 }
 .row {
   display: flex;
@@ -14,17 +14,29 @@ img{
 }
 #presentacion {
   text-align: left;
-  margin-left: 5%;
 }
 #presentacion, .col{
   height: 100%;
-  font-size: 200%;
-}
+  font-size: 400%;
+}/*
 .text-sm {
-  font-size: 20px !important;
-}
-@media (min-width: 992px) {
+  font-size: 10px !important;
+}*/
+@media (max-width: 1000px) {
   .text-lg {
-    font-size: 200% !important;
+    font-size: 10px !important;
+    margin-left: 20%;
+  }
+  img{
+    max-width: 190px;
+    margin-left: 20%;
+  }
+}
+@media (min-width: 1000px) {
+  .text-lg {
+    font-size: 20px !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
