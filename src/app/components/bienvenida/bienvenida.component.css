@@ -18,10 +18,7 @@ img{
 #presentacion, .col{
   height: 100%;
   font-size: 400%;
-}/*
-.text-sm {
-  font-size: 10px !important;
-}*/
+}
 @media (max-width: 1000px) {
   .text-lg {
     font-size: 10px !important;
