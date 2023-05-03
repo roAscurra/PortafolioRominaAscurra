@@ -9,6 +9,7 @@ h1{
 p{
   margin-top: 10px;
   margin-bottom: 0;
+  font-size: large;
 }
 #habilidades{
   margin: auto;
@@ -23,4 +24,11 @@ p{
 }
 span{
   color: rgb(151, 19, 151);
+}
+.progress-bar{
+  background-color: purple;
+}
+.progress{
+  background-color: #ea80fc;
+  height: 25px;
 }
