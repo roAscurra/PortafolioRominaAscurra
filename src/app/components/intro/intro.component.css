@@ -10,21 +10,27 @@ div{
   margin-top: 30%;
 }
 
-@media (min-width: 576px){
+@media (min-width: 999px){
   #img_perfil{
     border-radius: 100%;
     box-shadow: 3px 3px 3px #f2f2f2;
     left: 2%;
     top: 300px;
   }
+  #info{
+    font-size: x-large;
+  }
 }
 
-@media (max-width: 575px){
+@media (max-width: 1000px){
   #img_perfil{
     border-radius: 100%;
     box-shadow: 3px 3px 3px #f2f2f2;
     left: 35%;
     top: 300px;
+  }
+  #info{
+    font-size: medium;
   }
 }
 .title{
@@ -32,7 +38,4 @@ div{
 }
 h1{
   font-size: 30px;
-}
-#info{
-  font-size: x-large;
 }
