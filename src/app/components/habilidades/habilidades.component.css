@@ -1,16 +1,12 @@
 .row{
   padding: 70px;
 }
-div{
-  background-color: black;
-}
 h1{
   text-align: center;
   padding: 50px;
   font-size: 30px;
 }
 p{
-  color: white;
   margin-top: 10px;
   margin-bottom: 0;
 }
