@@ -20,12 +20,12 @@ h1{
 }
 
 .linea{
-  border-top: 3px solid purple;
+  border-top: 3px solid #c71585;
   height: 2px;
   max-width: 300px;
   padding: 0;
   margin: 60px auto 0 auto;
 }
 span{
-  color: rgb(151, 19, 151);
+  color: #c71585;
 }
