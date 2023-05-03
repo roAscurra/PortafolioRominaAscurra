@@ -7,8 +7,8 @@ html,body {
   height: 100%;
   display: block;
   overflow-x: hidden;
-  font-family: 'Ysabeau', sans-serif;  color: #fff;
-  background-color: black;
+  font-family: 'Ysabeau', sans-serif;  color: black;
+  background-color: #eeeeee;
   font-size: large;
 }
 @import "../node_modules/bootstrap/css/bootstrap";
