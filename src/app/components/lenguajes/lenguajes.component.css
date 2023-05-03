@@ -4,27 +4,18 @@
 }
 img{
   width: 50%;
-  padding: 5px;
-  margin: 5px;
 }
 h1{
     text-align: center;
     padding: 50px;
     font-size: 30px;
 }
-@media (min-width: 576px){
-  img{
-    width: 30%;
-    left: 2%;
-    top: 300px;
-  }
-}
 
 @media (max-width: 575px){
   img{
-    width: 40%;
     left: 35%;
     top: 300px;
+    width: 70%;
   }
 }
 
