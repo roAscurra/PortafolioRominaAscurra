@@ -1,9 +1,9 @@
 .contenido{
-  background-color:#222;
-  padding: 10px 0;
+  background: linear-gradient(to right, #800080, #c71585);
   width: 100%;
   position: fixed;
   z-index: 2;
+  padding: 1%;
 }
 .sections{
   margin-top: 12px;
@@ -20,7 +20,7 @@
 .sections ul li{
   color: #fff;
   display: inline-block;
-  font-size: 20px;
+  font-size: x-large;
   margin-left: 24px;
 }
 .sections a{
@@ -28,9 +28,10 @@
   color: #fff;
 }
 .sections ul li a:hover{
-  color: purple;
+  color: #ea80fc;
   cursor: pointer;
   transition: 0.4s ease-in-out;
+  font-size: large;
 }
 @media only screen and (max-width: 999px){
   .sections{
@@ -47,7 +48,7 @@
     margin: 0;
     padding: 10px 0 10px 26px;
     border-bottom: 1px solid #222;
-    background-color: black;
+    background: linear-gradient(to right, #800080, #c71585);
     width: 300px;
   }
   .menu_icon{
