@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { LenguajesComponent } from './components/lenguajes/lenguajes.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ProyectsComponent } from './components/proyects/proyects.component';
     IntroComponent,
     LenguajesComponent,
     ProyectsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
