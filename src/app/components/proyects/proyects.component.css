@@ -1,7 +1,6 @@
 
 @media (min-width: 600px){
   .row{
-    background-color: black;
     padding: 20px;
     margin: 0 auto;
     justify-content: center;
@@ -18,7 +17,6 @@
 }
 @media (max-width: 750px){
   .row{
-    background-color: black;
     justify-content: center;
     padding: 20px;
     position: relative;
@@ -33,7 +31,6 @@
   }
 }
 div{
-  background-color: black;
   text-align: center;
 }
 figure img{
@@ -78,7 +75,6 @@ h1{
   font-size: 30px;
   text-align: center;
   padding: 50px;
-  background-color: black;
 }
 span{
   color: rgb(151, 19, 151);
