@@ -9,7 +9,9 @@ div{
   font-weight: bold;
   margin-top: 30%;
 }
-
+#info{
+  text-align: justify;
+}
 @media (min-width: 999px){
   #img_perfil{
     border-radius: 100%;
